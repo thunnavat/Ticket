@@ -5,11 +5,20 @@
  */
 package base;
 
+import data.StationData;
+
 /**
  *
  * @author allal
  */
 public class Ticket {
+    private final StationData origin;
+    private final StationData destination;
     
+    public Ticket(StationData origin, StationData destination) {
+        this.origin = origin;
+        this.destination = destination;
+    
+    }
 }
 
